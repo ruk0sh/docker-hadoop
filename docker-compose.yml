@@ -73,7 +73,7 @@ services:
 
   nodemanager1:
     build:
-      context: images/nodemanager
+      context: nodemanager
     image: nodemanager1
     container_name: nodemanager1
     depends_on:
@@ -88,7 +88,7 @@ services:
 
   nodemanager2:
     build:
-      context: images/nodemanager
+      context: nodemanager
     image: nodemanager2
     container_name: nodemanager2
     depends_on:
@@ -103,7 +103,7 @@ services:
 
   nodemanager3:
     build:
-      context: images/nodemanager
+      context: nodemanager
     image: nodemanager3
     container_name: nodemanager3
     depends_on:
